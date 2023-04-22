@@ -28,7 +28,7 @@ Route.group(() => {
   Route.get('/crud', 'CrudappsController.index')
   Route.post('/crud', 'CrudappsController.store')
   Route.delete('/crud/:id', 'CrudappsController.destroy')
-  Route.patch('/crud/:id', 'CrudappsController.update')
+  Route.put('/crud/:id', 'CrudappsController.update')
   Route.get('/crud/:id', 'CrudappsController.show')
 
   // Route.resource('/crud', 'CrudappsController').apiOnly()
